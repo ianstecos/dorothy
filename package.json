@@ -1,0 +1,35 @@
+{
+  "name": "next-template",
+  "author": "YOUR_NAME_HERE",
+  "description": "A template for creating a production-ready fullstack Next.js application",
+  "version": "v1.0.0-alpha",
+  "license": "Apache",
+  "homepage": "YOUR_REPOSITORY_HERE",
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "yarn": "please-use-npm",
+    "npm": ">= 8.0.0"
+  },
+  "dependencies": {
+    "eslint-config-next": "^13.2.4",
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@types/react": "^18.0.31",
+    "cross-env": "^7.0.3",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.7"
+  }
+}
