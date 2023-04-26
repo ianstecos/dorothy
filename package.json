@@ -1,10 +1,10 @@
 {
-  "name": "next-template",
-  "author": "YOUR_NAME_HERE",
-  "description": "A template for creating a production-ready fullstack Next.js application",
+  "name": "dorothy",
+  "author": "Cosmin Iancu",
+  "description": "",
   "version": "v1.0.0-alpha",
-  "license": "Apache",
-  "homepage": "YOUR_REPOSITORY_HERE",
+  "license": "agpl-3.0",
+  "homepage": "https://github.com/ianstecos/dorothy",
   "scripts": {
     "dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
@@ -19,17 +19,17 @@
     "npm": ">= 8.0.0"
   },
   "dependencies": {
-    "eslint-config-next": "^13.2.4",
-    "next": "^13.2.4",
+    "eslint-config-next": "^13.3.1",
+    "next": "^13.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.5.1",
-    "@commitlint/config-conventional": "^17.4.4",
-    "@types/react": "^18.0.31",
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
+    "@types/react": "^18.2.0",
     "cross-env": "^7.0.3",
     "husky": "^8.0.3",
-    "prettier": "^2.8.7"
+    "prettier": "^2.8.8"
   }
 }
